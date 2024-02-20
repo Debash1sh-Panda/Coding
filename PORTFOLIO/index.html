@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deb-Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/x-icon" href="./image/portfavicon.png">
+    <script src="https://kit.fontawesome.com/e0534155e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- --------------------- nav/highlights ------------------  -->
+    <div id="myhead">
+        <div class="container">
+            <nav>
+                <h1 class="dear"><strong class="D">D</strong>ear/Deb.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#myhead">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="myheader-text">
+                <h3>Hello, It's Me</h3>
+                <h1>Debasish Panda</h1>
+                <h3>And I want to be a <span class="multiple-text"></span></h3></h3>
+                <p>I have completed bachelor's degree and currently I'm pursuing Master's degree.<br>I'm a Teamwork, Collaborative and Adaptability person !</p>
+
+                <a href="https://www.linkedin.com/in/debasishpanda1" title="linkedin" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Debash1sh-Panda" title="gitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/Xdebasishpanda"  title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/dear_debasish__/" title="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="./image/debResume.pdf" download class="btn">Download Resume</a>
+        </div>
+    </div>
+<!-- ------------------------- about ------------------------ -->
+    <div id="about">
+        <div class="row">
+            <div class="about-col1">
+                <img src="image/image1.jpg">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title"><b class="Am">A</b>bout <b class="Am">M</b>e</h1>
+                <p>I want to be a passionate and dedicated Junior Software Developer 
+                with a strong technical foundation and a desire to contribute to the field of software development.
+                With a solid background in Java programming and proficiency in HTML, CSS, JavaScript, Bootstrap, 
+                React.js, and MySQL, I am equipped with the skills to create efficient and robust software solutions.</p>
+
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-End Development</span><br>Creating UI/UX Websites</li>
+                        <li><span>UI/UX Designer</span><br>Designing Atractive Interface</li>
+                        <li><span>Java Development</span><br>Software Development</li>
+                        <li><span>MySQL</span><br>Building Relational DataBase</li>
+                        <li><span>Pursuing MERN-Stack Development</span><br>Web Applications Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                            <li><span>Master of Computer Applications (MCA)</span><br>Nov 2022 - Present<br>Institute Of Management and Information Technology (IMIT), Cuttack |85%</li>
+                            <li><span>Bachelor Of Computer Application (BCA)</span><br>Jul 2019 - May 2022<br>Narasingha Choudhury Autonomous College, Jajpur, Odisha |84%</li>
+                            <li><span>+2 Science (CHSE)</span><br>Jun 2017 - Jun 2019<br>Bidwan Residential High School, Jajpur, Odisha |56%</li>
+                            <li><span>Matriculation</span><br>Mar 2016 - Apr 2017<br>Saraswata Ucha Bidyapitha, Bhadrak, Odisha |70%</li>
+                            <!-- <li><span>PGDCA</span><br>Aug 2019 - Jan 2020<br>CIMIT, Jajpur, Odisha |81%</li> -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                            <li><span>Java Development</span><br>Sep 2022 - Oct 2022<br>Octa Net.Bhubaneswar, Odisha, India <i>(Remote)</i><br><br>- Coded and implemented new features in JAVA, enhancing ATM Interface and Calculator functionality.<br>- Conducted thorough testing, ensuring the delivery of high-quality, error-free code.</li>
+                            <li><br><span>Full-Stack Web Development</span><br>Aug 2022 - Sep 20220<br>Bharat Intern.Bhopal, Madhya Pradesh, India <i>(Remote)</i><br><br>- Adapted quickly to emerging technologies, enhancing skill set in HTML5, CSS3 and Basic JavaScript.<br>- Successfully delivered two responsive and dynamic projects as Netflix Clone and Temperature Converter.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+<!-- --------------------- Portfolio/projects --------------  -->
+<section class="portfolio" id="portfolio">
+    <h1 class="sub-title"><b class="Am">L</b>atest <b class="Am">P</b>roject</h1>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box lbox1">
+                <img src="image/portfolio1.jpg"> 
+                <div class="portfolio-layer">
+                    <h4>name of your project1</h4>
+                    <p>add details of your projects</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box mbox2">
+                <img src="image/portfolio2.jpg">
+                <div class="portfolio-layer">
+                    <h4>name of your project2</h4>
+                    <p>add details of your projects</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box rbox3">
+                <img src="image/portfolio3.jpg">
+                <div class="portfolio-layer">
+                    <h4>Color Scheme Changer3</h4>
+                    <p>A tool designed to simplify the process of customizing and switching color schemes in your web applications.</p>
+                    <a href="https://debash1sh-panda.github.io/ColorSchemeChanger/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box lbox4">
+                <img src="image/portfolio4.jpg">
+                <div class="portfolio-layer">
+                    <h4>name of your project</h4>
+                    <p>add details of your projects</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box mbox5">
+                <img src="image/portfolio5.jpg">
+                <div class="portfolio-layer">
+                    <h4>name of your project</h4>
+                    <p>add details of your projects</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box rbox6">
+                <img src="image/portfolio6.jpg">
+                <div class="portfolio-layer">
+                    <h4>name of your project</h4>
+                    <p>add details of your projects</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- --------------------- Portfolio/certificates ----------- -->
+    <div class="heading">
+        <h1 class="sub-title"><b class="Am">M</b>y <b class="Am">C</b>ertification</h1>
+    </div>
+    <div class="certificate-gallery">   
+            <div class="certificate-box">
+                <div class="certificat-img">
+                <img src="./image/certificate1.jpg" alt="java development certificate">
+                </div>
+                <div class="certificate-content">
+                <h3>Java Development</h3>
+                <p>Coded and implemented new features in JAVA and OOPs concept, Ensuring the delivery of high-quality, error-free code.</p>
+                </div>
+            </div>
+            <div class="certificate-box">
+                <div class="certificat-img">
+                <img src="./image/certificate3.jpg" alt="web development certificate">
+                </div>
+                <div class="certificate-content">
+                <h3>Web Development</h3>
+                <p>Master web development with SoloLearn's certificate.<br><br>Gain coding expertise, build dynamic websites, and advance my career in tech seamlessly.</p>
+                </div>
+            </div>
+            <div class="certificate-box">
+                <div class="certificat-img">
+                <img src="./image/certificate4.jpg" alt="Full-Stack web development certificate">
+                </div>
+                <div class="certificate-content">
+                <h3>Full-Stack Web Development</h3>
+                <p>Full Stack Web Development Certificate from Bharat Intern and master essential skills in front-end and back-end development.<br><br>Gain hands-on experience with the latest technologies, equipping me for success in the dynamic world of web development.</p>
+                </div>
+            </div>
+            <div class="certificate-box">
+                <div class="certificat-img">
+                <img src="./image/certificate2.jpg" alt="SQL certificate">
+                </div>
+                <div class="certificate-content">
+                <h3>SQL/Relational Database</h3>
+                <p>Earn a comprehensive SQL certificate from IBM, a global leader in technology and innovation.<br><br>Gain mastery in Structured Query Language, a fundamental skill for database management. Enhance my career prospects with IBM's recognized certification.</p>
+                </div>
+            </div>
+            <div class="certificate-box">
+                <div class="certificat-img">
+                <img src="./image/certificate5.png" alt="responsive-web-design certificate">
+                </div>
+                <div class="certificate-content">
+                <h3>Responsive Web Design</h3>
+                <p>Earn a comprehensive Responsive Web Design certificate from FreeCodeCamp.</p>
+                </div>
+            </div>
+            <div class="certificate-box">
+                <div class="certificat-img">
+                <img src="./image/certificate6.png" alt="Azure certificate">
+                </div>
+                <div class="certificate-content">
+                <h3>Azure: REST API</h3>
+                <p>Azure: create a REST API using NODE.js serverless functions.</p>
+                </div>
+            </div>
+            <div class="certificate-box">
+                <div class="certificat-img">
+                <img src="./image/certificate7.png" alt="CSS certificate">
+                </div>
+                <div class="certificate-content">
+                <h3>CSS (Basic)</h3>
+                <p>Earn a comprehensive CSS certificate from HackerRank.</p>
+                </div>
+            </div>
+            <div class="certificate-box">
+                <div class="certificat-img">
+                <img src="./image/certificate8.png" alt="Core Java certificate">
+                </div>
+                <div class="certificate-content">
+                <h3>Core-JAVA (J2SE)</h3>
+                <p>Earn a comprehensive Core-JAVA certificate from CodeChef.</p>
+                </div>
+            </div>
+    </div>
+
+<!-- --------------------- Portfolio/Hobbies --------------- -->
+<section class="hobbies" id="hobbies">
+    <h1 class="sub-title"><b class="Am">M</b>y <b class="Am">H</b>obbies</h1>
+
+        <div class="hobbies-container">
+            <div class="hobbies-box">
+                <i class="fa-solid fa-camera-retro"></i>
+                <h3>PHOTOGRAPHY</h3>
+                <p>"Capturing moments, framing emotions, photography is my passion.<br>Through the lens, I explore creativity, telling stories in every snapshot"</p>
+            </div>
+            <div class="hobbies-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>CODING</h3>
+                <p>"Passionate about coding: turning ideas into elegant solutions.<br>Endlessly learning, problem-solving, and enjoying the beauty of creating with code"</p>
+            </div>
+            <div class="hobbies-box">
+                <i class="fa-solid fa-gamepad"></i>
+                <h3>GAMING</h3>
+                <p>"Gaming enthusiast, navigating digital realms, conquering challenges, and unlocking creativity.<br>Joystick in hand, a world of endless possibilities unfolds"</p>
+            </div>
+        </div>
+</section>
+
+<!-- ------------------------- contacts -------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>debasishpanda2036@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>(+91) 8144415694</p>
+                <div class="social-icons">
+                <a href="https://www.linkedin.com/in/debasishpanda1" title="linkedin" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Debash1sh-Panda" title="gitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/Xdebasishpanda"  title="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/dear_debasish__/" title="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="./image/debResume.pdf" download class="btn">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" class="input-right-animation">
+                    <input type="text" name="Name" placeholder=" name : title " required>
+                    <input type="email" name="E-mail" placeholder="name@gmail.com" required>
+                    <textarea name="Message" rows="5" placeholder="any message for me!"></textarea>
+                    <button class="btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-icon">
+        <a href="#myhead"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+<footer>
+    <div class="copyright">
+        <p>Copyright &copy; 2024 by  Debasish. <i class="fa-solid fa-shield-heart"></i></p>
+    </div>
+    <audio src="image/just-relax-music.mp3" type="audio/mpeg" controls autoplay loop></audio>
+</footer>
+
+    <!-- -------------- scroll reveal --------- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- -------------------- typed js -------- -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- ----------------- custom js ---------- -->
+    <script src="./index.js"></script>
+</body>
+</html>
